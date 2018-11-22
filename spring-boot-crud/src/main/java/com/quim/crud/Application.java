@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication 
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"com.baeldung.crud"})
-@EnableJpaRepositories(basePackages="com.baeldung.crud.repositories")
+@ComponentScan(basePackages={"com.quim.crud"})
+@EnableJpaRepositories(basePackages="com.quim.crud.repositories")
 @EnableTransactionManagement
-@EntityScan(basePackages="com.baeldung.crud.entities")
+@EntityScan(basePackages="com.quim.crud.entities")
 
 //*@SpringBootApplication
 public class Application {
