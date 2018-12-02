@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.quim.app1.entities.User;
 import com.quim.app1.repositories.UserRepository;
 
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping("/api")
 public class AppController {
@@ -27,6 +29,7 @@ public class AppController {
 	
 	//Testing app with basic Hello!
    @GetMapping("/hello")
+   @ApiOperation(value="Without values", notes = "Hello world to test app")
    public String hello() {
       return "Hello!";
     }
