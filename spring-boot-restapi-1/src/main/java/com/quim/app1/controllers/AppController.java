@@ -20,6 +20,10 @@ import com.quim.app1.repositories.UserRepository;
 
 import io.swagger.annotations.ApiOperation;
 
+// api rest CRUD using mysql
+// swagger added. URL http://localhost:8080/swagger-ui.html  to get api info provided by swagger 
+// added hikari support 
+
 @RestController
 @RequestMapping("/api")
 public class AppController {
