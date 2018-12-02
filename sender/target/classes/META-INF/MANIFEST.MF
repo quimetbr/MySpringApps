@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sender
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: quim
+Implementation-Vendor-Id: br.com.emmanuelneri
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ rabbitmq/sender/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
